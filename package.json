@@ -1,1 +1,6 @@
-{ "dependencies": { "mupdf": "^0.2.3" } }
+{
+  "dependencies": { "mupdf": "^0.2.3", "pino": "^9.3.2", "tesseract.js": "^5.1.0" },
+  "trustedDependencies": [
+    "tesseract.js"
+  ]
+}
